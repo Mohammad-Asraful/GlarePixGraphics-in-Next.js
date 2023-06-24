@@ -35,9 +35,9 @@ export default class HeaderSlider extends Component {
           <div className="container mx-auto">
             <div className="px-7 py-2">
               <Slider className="w-full" {...settings}>
-                {TopCarouselSlider.map((data) => {
+                {TopCarouselSlider.map((data, i) => {
                   return (
-                    <div className="w-full">
+                    <div key={i} className="w-full">
                       <img
                         className="w-full"
                         src={data.imgSrc}

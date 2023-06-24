@@ -24,9 +24,9 @@ const HomeOurWorks = () => {
             </h1>
             {/* images start */}
             <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 justify-center items-center gap-5">
-              {ClippingPath.map((data) => {
+              {ClippingPath.map((data, i) => {
                 return (
-                  <div>
+                  <div key={i}>
                     <img src={data.imgSrc} alt={data.alt} />
                   </div>
                 );
@@ -43,9 +43,9 @@ const HomeOurWorks = () => {
             </h1>
             {/* images start */}
             <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 justify-center items-center gap-5">
-              {BackgroundRemoval.map((data) => {
+              {BackgroundRemoval.map((data, i) => {
                 return (
-                  <div>
+                  <div key={i}>
                     <img src={data.imgSrc} alt={data.alt} />
                   </div>
                 );
@@ -62,9 +62,9 @@ const HomeOurWorks = () => {
             </h1>
             {/* images start */}
             <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 justify-center items-center gap-5">
-              {PhotoJewelryRetouch.map((data) => {
+              {PhotoJewelryRetouch.map((data, i) => {
                 return (
-                  <div>
+                  <div key={i}>
                     <img src={data.imgSrc} alt={data.alt} />
                   </div>
                 );
@@ -81,9 +81,9 @@ const HomeOurWorks = () => {
             </h1>
             {/* images start */}
             <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 justify-center items-center gap-5">
-              {GhostMannequinSymmetric.map((data) => {
+              {GhostMannequinSymmetric.map((data, i) => {
                 return (
-                  <div>
+                  <div key={i}>
                     <img src={data.imgSrc} alt={data.alt} />
                   </div>
                 );
@@ -100,9 +100,9 @@ const HomeOurWorks = () => {
             </h1>
             {/* images start */}
             <div className="grid grid-cols-1 sm:grid-cols-2 justify-center items-center gap-5">
-              {ColorCorrection.map((data) => {
+              {ColorCorrection.map((data, i) => {
                 return (
-                  <div>
+                  <div key={i}>
                     <img src={data.imgSrc} alt={data.alt} />
                   </div>
                 );
