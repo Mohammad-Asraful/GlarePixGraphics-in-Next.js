@@ -50,7 +50,7 @@ export default class FooterSlider extends Component {
                     quality work. Transparent communication.”
                   </p>
                 </Card>
-                {/* EN */}
+                {/* ENGLAND */}
                 <Card className="w-2/3 mx-auto bg-opacity-0 border-2">
                   <div className="text-center">
                     <img
@@ -66,7 +66,7 @@ export default class FooterSlider extends Component {
                     quality work.”
                   </p>
                 </Card>
-                {/* SW */}
+                {/* SWEDEN */}
                 <Card className="w-2/3 mx-auto bg-opacity-0 border-2">
                   <div className="text-center">
                     <img
