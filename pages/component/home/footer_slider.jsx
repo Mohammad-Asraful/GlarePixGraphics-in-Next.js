@@ -45,7 +45,7 @@ export default class FooterSlider extends Component {
                     <h3 className="text-2xl font-bold mt-4 mb-2">H.ROBASTA</h3>
                     <h3 className="text-2xl font-semibold">United States</h3>
                   </div>
-                  <p className="font-normal text-gray-700 dark:text-gray-400 text-xl">
+                  <p className="font-normal text-black text-xl">
                     “No doubt on their professionalism. Always try to provide
                     quality work. Transparent communication.”
                   </p>
@@ -61,7 +61,7 @@ export default class FooterSlider extends Component {
                     <h3 className="text-2xl font-semibold">ENGLAND</h3>
                   </div>
 
-                  <p className="font-normal text-gray-700 dark:text-gray-400  text-xl">
+                  <p className="font-normal text-black text-xl">
                     “Provide fast delivery. Polite and prompt communication. Do
                     quality work.”
                   </p>
@@ -78,7 +78,7 @@ export default class FooterSlider extends Component {
                     </h3>
                     <h3 className="text-2xl font-semibold">SWEDEN</h3>
                   </div>
-                  <p className="font-normal text-gray-700 dark:text-gray-400  text-xl">
+                  <p className="font-normal text-black text-xl">
                     “Always Professional. Quick delivery and quality work with a
                     reasonable price.”
                   </p>
@@ -96,7 +96,7 @@ export default class FooterSlider extends Component {
                     <h3 className="text-2xl font-semibold">AUSTRALIA</h3>
                   </div>
 
-                  <p className="font-normal text-gray-700 dark:text-gray-400  text-xl">
+                  <p className="font-normal text-black text-xl">
                     FRANK RICKY“Glare Pix Graphics (GPG) team is Highly
                     Professional. They are very prompt in responding to any
                     query. Definitely a quality provider and recommend their
