@@ -1,27 +1,6 @@
-import Head from "next/head";
-
 const PriceItems = () => {
   return (
     <>
-      <Head>
-        {/* <!-- Basic --> */}
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <link rel="icon" href="images/favicon.png" type="image/png" />
-
-        {/* <!-- Mobile Metas --> */}
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-        {/* <!-- Site Metas --> */}
-        <meta name="keywords" content="" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-
-        <title>GPG</title>
-      </Head>
-
       <section className="py-20 bg-[#EEEEEE]">
         <div className="container mx-auto">
           <div className="px-0 lg:px-10">

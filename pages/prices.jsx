@@ -2,26 +2,31 @@ import React from "react";
 import Header from "./common/header";
 import PriceItems from "./component/pricing/price_items";
 import Footer from "./common/footer";
+import HeadSeo from "./headSeo";
 
 const Price = () => {
   return (
-    <section>
-      <div className="containers">
-        <div>
-          {/*  */}
-          <Header />
-          {/*  */}
+    <>
+      <HeadSeo />
 
-          {/*  */}
-          <PriceItems />
-          {/*  */}
+      <section>
+        <div className="containers">
+          <div>
+            {/*  */}
+            <Header />
+            {/*  */}
 
-          {/*  */}
-          <Footer />
-          {/*  */}
+            {/*  */}
+            <PriceItems />
+            {/*  */}
+
+            {/*  */}
+            <Footer />
+            {/*  */}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 

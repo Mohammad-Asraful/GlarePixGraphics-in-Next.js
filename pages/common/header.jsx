@@ -1,11 +1,10 @@
 import React from "react";
 import { Navbar } from "flowbite-react";
 import Link from "next/link";
-import HeadSeo from "../headSeo";
+
 const Header = () => {
   return (
     <>
-      <HeadSeo />
       <header className="sticky w-full top-0 z-50">
         {/* <!-- header section strats --> */}
         <Navbar

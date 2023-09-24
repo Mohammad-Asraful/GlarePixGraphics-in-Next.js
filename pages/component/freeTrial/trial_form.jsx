@@ -1,7 +1,6 @@
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
-import Head from "next/head";
 import { Button } from "flowbite-react";
 
 const schema = yup
@@ -31,24 +30,6 @@ const TrialForm = () => {
 
   return (
     <>
-      <Head>
-        {/* <!-- Basic --> */}
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-        {/* <!-- Mobile Metas --> */}
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-        {/* <!-- Site Metas --> */}
-        <meta name="keywords" content="" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-
-        <title>GPG</title>
-      </Head>
-
       <section className="py-20 px-3 lg:px-5 bg-[#eeeeee]">
         <div className="container mx-auto">
           <div>
